@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Il Lavoro</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-ZKj9Kr3q4Q2NLdzL28cBhdLxJv38EfeYqrwKjJfoee0Cvk9XW5z+L5LpZKviDx5JtPjYtYw/1lMX+NgVT/9PAQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      body {
+        background-color: #F4F4F4;
+        font-family: 'Open Sans', sans-serif;
+        color: #333333;
+      }
+      header {
+        background-color: #4285F4;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 20px;
+      }
+      header h1 {
+        animation: fadeInDown 1s ease-out;
+      }
+
+      @keyframes fadeInDown {
+        from {
+          opacity: 0;
+          transform: translate3d(0, -100%, 0);
+        }
+
+        to {
+          opacity: 1;
+          transform: none;
+        }
+      }
+      nav {
+        background-color: #FFFFFF;
+        border-bottom: 1px solid #CCCCCC;
+        padding: 10px;
+      }
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+      }
+      nav li {
+        float: left;
+      }
+      nav li a {
+        display: block;
+        color: #333333;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 1px;
+        transition: all 0.3s ease-in-out;
+      }
+      nav li a:hover {
+        background-color: #CCCCCC;
+        color: #4285F4;
+      }
+      nav li a:before {
+        content: "\f105";
+        font-family: "Font Awesome 5 Free";
+        font-size: 16px;
+        color: #4285F4;
+        margin-right: 8px;
+        transition: all 0.3s ease-in-out;
+      }
+      nav li a:hover:before {
+        transform: rotate(360deg);
+      }
+      main {
+        padding: 20px;
+      }
+      section {
+        margin-bottom: 30px;
+      }
+      h1, h2 {
+        font-size: 36px;
+        margin-top: 0;
+        font-weight: 700;
+        letter-spacing: 1px;
+      }
+      h2 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+      }
+      footer {
+        background-color: #333333;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 10px;
+      }
+      footer a {
+        color: #FFFFFF;
+        text-decoration: none;
+        font-weight: 700;
+        font-size: 16px;
+        letter-spacing: 1px;
+        transition: all 
+          @keyframes fadeInDown {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -100%, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: none;
+    }
+  }
+
+  nav {
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #CCCCCC;
+    padding: 10px;
+  }
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  nav li {
+    float: left;
+  }
+  nav li a {
+    display: block;
+    color: #333333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  nav li a:hover {
+    background-color: #CCCCCC;
+  }
+  nav li a {
+    position: relative;
+    animation: slideInBottom 0.5s cubic-bezier(0.36,0.07,0.19,0.97) both;
+  }
+
+  @keyframes slideInBottom {
+    from {
+      transform: translateY(50%);
+      opacity: 0;
+    }
+
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  main {
+    padding: 20px;
+  }
+  section {
+    margin-bottom: 30px;
+  }
+  h1, h2 {
+    font-size: 36px;
+    margin-top: 0;
+    color: #333333;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  footer {
+    background-color: #333333;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+  }
+  footer a {
+    color: #FFFFFF;
+    text-decoration: none;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  /* Aggiungi icone */
+  .icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+  }
+  .icon-home {
+    background-image: url("https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32/home-512.png");
+  }
+  .icon-work {
+    background-image: url("https://cdn3.iconfinder.com/data/icons/linecons-free-vector-icons-pack/32
+      </style>
+  </head>
+  <body>
+    <header>
+      <h1>Il Lavoro</h1>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#giovani">I Giovani e il Lavoro</a></li>
+        <li><a href="#colloquio">Colloquio di Lavoro</a></li>
+        <li><a href="#differenze">Le Differenze tra Trovare Lavoro Prima e Adesso</a></li>
+        <li><a href="#consigli">Buoni Consigli per Trovare Lavoro per i Giovani</a></li>
+      </ul>
+    </nav>
+    <main>
+      <section id="giovani">
+        <h2>I Giovani e il Lavoro</h2>
+        <p>Il lavoro rappresenta una grande sfida per i giovani. La maggior parte di loro non ha ancora molta esperienza nel mondo del lavoro e può trovarsi a dover affrontare molte difficoltà. In questa sezione esploreremo alcune delle sfide che i giovani devono affrontare nel trovare lavoro e iniziare una carriera.</p>
+        <img src="https://images.app.goo.gl/AcTupYnGPwwbX3Z19" alt="Giovani lavoratori">
+      </section>
+      <section id="colloquio">
+        <h2>Colloquio di Lavoro</h2>
+        <p>Il colloquio di lavoro è un momento importante per chi cerca lavoro. In questa sezione esploreremo alcuni dei suggerimenti e delle tecniche per prepararsi al meglio per un colloquio di lavoro, come rispondere alle domande del datore di lavoro e presentarsi nel modo migliore.</p>
+      </section>
+      <section id="differenze">
+        <h2>Le Differenze tra Trovare Lavoro Prima e Adesso</h2>
+        <p>Negli ultimi anni, il mondo del lavoro è cambiato molto. In questa sezione esploreremo alcune delle differenze tra il trovare lavoro prima e adesso, come i cambiamenti nelle tecnologie, nei metodi di ricerca del lavoro e nell'approccio dei datori di lavoro ai candidati.</p>
+      </section>
+      <section id="consigli">
+        <h2>Buoni Consigli per Trovare Lavoro per i Giovani</h2>
+        <p>Trovare lavoro può essere una sfida, soprattutto per i giovani. In questa sezione, esploreremo alcuni dei migliori consigli e suggerimenti per aiutare i giovani a trovare lavoro e iniziare la loro carriera nel modo migliore possibile.</p>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 
+        <a href="https://www.miosito.it">Il Mio Sito</a>
+        , Tutti i Diritti Riservati.</p>
+    </footer>
+  </body>
+</html>
